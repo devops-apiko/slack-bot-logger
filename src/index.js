@@ -31,8 +31,6 @@ class Logger {
         ]
       }),
     })
-      .then((req) => req.text())
-      .then(console.log)
       .catch(console.error)
   }
 
